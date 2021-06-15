@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "vite",
     "start": "node webpack.start",
     "build": "node webpack.build"
   },
@@ -17,7 +18,7 @@
     "remark-github": "^7.0.3",
     "remark-highlight.js": "^5.0.0",
     "remark-html": "^7.0.0",
-    "vue": "^2.5.11",
+    "vue": "^3.1.1",
     "vue-router": "^3.0.1",
     "yaml-front-matter": "^3.4.0"
   },
@@ -27,6 +28,8 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.11",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
@@ -35,8 +38,10 @@
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
     "html-webpack-plugin": "^2.30.1",
+    "less": "^4.1.1",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+    "vite": "^2.3.7",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",

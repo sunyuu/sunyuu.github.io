@@ -35,9 +35,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import url('./assets/style/base.scss');
-@import url('./assets/style/nprogress.scss');
+<style lang="less">
+@import url('./assets/style/base.css');
+@import url('./assets/style/nprogress.css');
 
 header {
   height: 160px;
@@ -53,7 +53,7 @@ header {
       margin-right: 20px;
 
       a {
-        color: rgba($color: #000000, $alpha: 0.85);
+        color: rgba(0, 0, 0, 0.85);
 
         &:hover {
           color: #ff5d3d;

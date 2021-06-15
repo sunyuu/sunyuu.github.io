@@ -19,9 +19,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import url('../assets/style/markdown.scss');
-@import url('../assets/style/highlight.scss');
+<style lang="less">
+@import url('../assets/style/markdown.css');
+@import url('../assets/style/highlight.css');
 
 .post {
     margin-top: 60px;
@@ -34,7 +34,7 @@ h1 {
 h6 {
     text-align: center;
     font-size: 12px;
-    color: rgba($color: #000000, $alpha: 0.55)
+    color: rgba(0, 0, 0, 0.85);
 }
 .markdown-body {
     margin-top: 80px;

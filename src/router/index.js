@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import vueRouter from 'vue-router'
 import data from '../utils/data.html'
-import archive from '../components/archive'
+import archive from '../components/archive.vue'
 import post from '../components/post.vue'
 import nprogress from 'nprogress'
 
