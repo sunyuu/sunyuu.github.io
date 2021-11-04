@@ -9,9 +9,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "types": ["vite/client"],
-    "allowJs": true,
-    "outDir": "./"
+    "types": ["vite/client", "node"],
+    "allowJs": true
+    // "outDir": "./"
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.js"]
 }

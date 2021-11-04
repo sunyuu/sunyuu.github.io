@@ -16,10 +16,10 @@
     <footer>
       © sunyuu
     </footer>
-    <div >
+    <!-- <div >
       <div class="music-icon" @click="isShowMusic = !isShowMusic"></div>
       <iframe  class="music" v-show="isShowMusic" frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=400 src="//music.163.com/outchain/player?type=0&id=2435468007&auto=0&height=400"></iframe>
-    </div>
+    </div> -->
   </div>
 </template>
 

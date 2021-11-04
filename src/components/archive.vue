@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     mdData() {
-      return this.data.markdown
+      return this.data
     }
   },
   mounted() {
