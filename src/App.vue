@@ -6,7 +6,10 @@
           <router-link to="/">目录</router-link>
         </li>
         <li>
-          关于我
+          <router-link to="/about">关于我</router-link>
+        </li>
+        <li>
+          <router-link to="/changelog">更新记录</router-link>
         </li>
       </ul>
     </header>

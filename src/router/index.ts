@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import data from '@md-data'
 import archive from '../components/archive.vue'
 import post from '../components/post.vue'
+import changelog from '../components/changelog.vue'
+import about from '../components/about.vue'
 
 
 const router = createRouter({
@@ -24,6 +26,14 @@ const router = createRouter({
         })
         return { postData: pData }
       }
+    },
+    {
+      path: '/about',
+      component: about
+    },
+    {
+      path: '/changelog',
+      component: changelog
     }
   ]
 })
